@@ -1,0 +1,30 @@
+{
+  "name": "minichatbackend",
+  "version": "1.0.0",
+  "description": "miniChatBackend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iwinslow/miniChatBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iwinslow/miniChatBackend/issues"
+  },
+  "homepage": "https://github.com/Iwinslow/miniChatBackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  }
+}
